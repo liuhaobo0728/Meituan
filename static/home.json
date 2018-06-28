@@ -1,0 +1,118 @@
+{
+	"ret": true,
+	"data": {
+		"menuList": [{
+			"id": "001",
+			"imgUrl": "http://p1.meituan.net/jungle/8b5e1702d4145ccf058ba5fb31008c5310912.png",
+			"text": "美食"
+		},
+		{
+			"id": "002",
+			"imgUrl": "http://p0.meituan.net/jungle/45ff2f098a20a77122bff8385192f0ec10547.png",
+			"text": "美团超市"
+		},
+		{
+			"id": "003",
+			"imgUrl": "http://p1.meituan.net/jungle/12a9834827909fa55f54bce96e67470711250.png",
+			"text": "生鲜果蔬"
+		},
+		{
+			"id": "004",
+			"imgUrl": "http://p1.meituan.net/jungle/da9181f93dd2e11c5d74cf685470408f10016.png",
+			"text": "美团专送"
+		},
+		{
+			"id": "005",
+			"imgUrl": "http://p1.meituan.net/jungle/a2a306c5467aba7fac8d7410d161f8db9364.png",
+			"text": "下午茶"
+		},
+			{
+			"id": "006",
+			"imgUrl": "http://p0.meituan.net/jungle/58b60a312cf86f3a3afc4c96ff0e53438774.png",
+			"text": "汉堡披萨"
+		},
+		{
+			"id": "007",
+			"imgUrl": "http://p0.meituan.net/jungle/2ec76f8f4f21a4ec163adc7fccfa1a399428.png",
+			"text": "小吃馆"
+		},
+		{
+			"id": "008",
+			"imgUrl": "http://p0.meituan.net/jungle/2eee7747fd143249b100b9fa5ee5e31d9873.png",
+			"text": "家常菜"
+		}],
+		"shopsList": [{
+			"id": "0001",
+			"type": 0,
+			"logoImg": "http://p1.meituan.net/0.84.63/xianfu/ab516b002a5c62953586b64f1d2a07942645.jpg.webp",
+			"title": "天津麦当劳杨柳青新华道餐厅",
+			"grade": 3,
+			"monthNum": "1234",
+			"time": "30",
+			"distance": "398",
+			"startPrice": "0",
+			"distribution": "9",
+			"courier": 1,
+        	"shop_return_price": {
+            	"code": 1,
+            	"min_price":"30",
+            	"dis_money":"3"
+        	},
+        	"shop_return_chit": {
+        		"code" : 0
+        	},
+        	"shop_return_invoice": {
+            	"code": 1,
+            	"min_price":"0"
+        	}
+			},{
+			"id": "0002",
+			"type": 2,
+			"logoImg": "http://p1.meituan.net/waimaipoi/53432fde718ee0b91ca7760fead3a29340960.jpg.webp",
+			"title": "家起锅贴",
+			"grade": 5,
+			"monthNum": "1234",
+			"time": "100",
+			"distance": "820",
+			"startPrice": "20",
+			"distribution": "3.5",
+			"courier": 0,
+        	"shop_return_price": {
+            	"code": 0,
+            	"min_price":"30",
+            	"dis_money":"3"
+        	},
+        	"shop_return_chit": {
+        		"code" : 1
+        	},
+        	"shop_return_invoice": {
+            	"code": 1,
+            	"min_price":"0"
+        	}
+			},{
+			"id": "0003",
+			"type": 1,
+			"logoImg": "http://p0.meituan.net/waimaipoi/b693840c63c6c1e9ea8e2b74674cf00b88181.jpg.webp",
+			"title": "1号金牌卤肉饭(杨柳青店)",
+			"grade": 4.5,
+			"monthNum": "518",
+			"time": "30",
+			"distance": "1235",
+			"startPrice": "20",
+			"distribution": "3.5",
+			"courier": 1,
+        	"shop_return_price": {
+            	"code": 0,
+            	"min_price":"30",
+            	"dis_money":"3"
+        	},
+        	"shop_return_chit": {
+        		"code" : 0
+        	},
+        	"shop_return_invoice": {
+            	"code": 1,
+            	"min_price":"0"
+        	}
+			}]
+	}
+}
