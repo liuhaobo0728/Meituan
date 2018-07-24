@@ -1,7 +1,6 @@
 <template>
 	<div>
 	<details-header :list='detailsList'></details-header>
-	<router-view></router-view>
 	</div>
 	
 </template>

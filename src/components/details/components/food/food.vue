@@ -1,35 +1,43 @@
 <template>
 	<div>
 		<details-notice :list='noticeList'></details-notice>
-		<div class="food" v-for='item of foodList'>
-			<div class="food-menu" >
-				<div class="menu-text">
+		<div class="food">
+			<div class="food-menu" ref='wrapperMenu'>
+				<div>
+				<div class="menu-text" v-for='item of list.food'>
 					<div class="menu-text-item border-bottom">
-					<span class="menu-item">{{ item.name }}
-					</span>
+						<span class="menu-item">{{ item.name }}</span>
 					</div>
 				</div>
+				</div>
 			</div>
-			<div class="food-content">
-				<h3 class="content-name">{{ item.name}}</h3>
-				<div class="content-content border-bottom" v-for='(item,index) of item.foods' :key=index>
-					<div class="content-img">
-						<img :src='item.imgUrl'>
+			<div class="food-content" ref='wrapperFood'>
+				<div>
+				<div v-for='item of list.food'>
+					<h3 class="content-name" >{{ item.name}}</h3>
+					<div class="content-content border-bottom" v-for='(item,index) of item.foods' :key=index>
+						<div class="content-img">
+							<img :src='item.imgUrl'>
+						</div>
+						<div class="content-text">
+							<h2 class="content-title">
+								{{ item.name }}
+							</h2>
+							<p class="right-text">
+								{{ item.content }}
+							</p>
+							<p class="text-good">
+								赞{{ item.goodNum }}
+							</p>
+							<p class="text-price">
+								¥{{ item.price }}
+							</p>
+						</div>
+						<div class="car-wrapper">
+							<car-control :foods='item'></car-control>
+						</div>
 					</div>
-					<div class="content-text">
-						<h2 class="content-title">
-							{{ item.name }}
-						</h2>
-						<p class="right-text">
-							{{ item.content }}
-						</p>
-						<p class="text-good">
-							赞{{ item.goodNum }}
-						</p>
-						<p class="text-price">
-							¥{{ item.price }}
-						</p>
-					</div>
+				</div>
 				</div>
 			</div>
 		</div>
@@ -38,21 +46,45 @@
 </template>
 
 <script>
+import Bscroll from 'better-scroll'
 import DetailsNotice from '@/components/details/components/notice'
 import ShopCar from '@/components/details/components/shopCar'
+import CarControl from '@/components/carcontrol/carcontrol'
 export default{
 	name: 'Food',
-	computed: {
-		foodList(){
-			return this.$route.params.foodList
-		},
+	props:{
+		list: Object
+	},
+	computed:{
 		noticeList() {
-			return this.$route.params.noticeList
+			return this.list.notice
 		}
+		// selectFood () {
+		// 	let food = []
+		// 	Object.keys(this.list).forEach((key) => {
+		// 		let foods = []
+		// 		foods.push(this.list[food])
+		// 		console.log(foods)
+		// 		// foods.food.forEach((foodList) => {
+		// 		// 	console.log(foodList)
+		// 		//  // 	foodList.food.forEach((foods) => {
+		// 		// 	// 	if(foods.count){
+		// 		// 	// 	food.push(foods)
+		// 		// 	// 	}
+		// 		// 	// })
+		// 		// })
+		// 	})
+		// 	return food
+		// }
 	},
 	components: {
 		DetailsNotice,
-		ShopCar
+		ShopCar,
+		CarControl
+	},
+	mounted() {
+		this.scroll = new Bscroll(this.$refs.wrapperMenu)
+		this.scroll = new Bscroll(this.$refs.wrapperFood)
 	}
 }	
 </script>
@@ -151,4 +183,20 @@ export default{
 						margin-top: 3px
 						font-size: 18px
 						color: #fe4d2d
+				.number
+					position: absolute
+					bottom: 20px
+					right: 20px
+					font-size: 10px
+					.add
+						display: inline-block
+						width: 25px
+						height: 25px
+						line-height: 25px
+						background: #ffd161
+						border-radius: 50%
+				.car-wrapper
+					position: absolute
+					bottom: 12px
+					right: 12px
 </style>

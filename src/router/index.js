@@ -4,9 +4,9 @@ import Home from '@/components/home/Home'
 import Order from '@/components/order/Order'
 import My from '@/components/my/My'
 import Details from '@/components/Details/Details'
-import DetailsFood from '@/components/Details/components/food/food'
-import DetailsMerchant from '@/components/Details/components/merchant/merchant'
-import DetailsEvaluate from '@/components/Details/components/evaluate/evaluate'
+import City from '@/components/city/city'
+import Search from '@/components/search/search'
+import CityContent from '@/components/cityContent/cityContent'
 Vue.use(Router)
 
 export default new Router({
@@ -29,23 +29,23 @@ export default new Router({
     {
       path: '/details/:id',
       name: 'Details',
-      component: Details,
-      redirect: { name: 'Food' },
-      children: [
-    {
-      path: '/details/:id/food',
-      name: 'Food',
-      component: DetailsFood
+      component: Details
     },
     {
-      path: '/details/:id/merchant',
-      name: 'Merchant',
-      component: DetailsMerchant
+      path: '/city',
+      name: 'City',
+      component: City
     },
     {
-      path: '/details/:id/evaluate',
-      name: 'Evaluate',
-      component: DetailsEvaluate
-    }]
-  }]
+      path: '/search',
+      name: 'Search',
+      component: Search
+    },
+    {
+      path: '/citycontent',
+      name: 'CityContent',
+      component: CityContent
+    }
+
+    ]
 })

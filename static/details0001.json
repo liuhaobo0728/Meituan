@@ -15,8 +15,131 @@
 					"goodNum": 4,
 					"price": 21,
 					"number": 0
+				},
+						{
+					"imgUrl": "https://img.meituan.net/100.100.90/xianfu/b8cb6b5933ab3744d14ea5e3564cc6bd30649.jpg",
+					"name": "麦辣鸡腿堡（金球版）",
+					"content": "麦辣鸡腿堡“金球版”1个 主要原料：足球形面包，鸡肉，生菜，风味沙拉酱",
+					"goodNum": 4,
+					"price": 21,
+					"number": 0
+				},{
+					"imgUrl": "https://img.meituan.net/100.100.90/xianfu/b8cb6b5933ab3744d14ea5e3564cc6bd30649.jpg",
+					"name": "麦辣鸡腿堡（金球版）",
+					"content": "麦辣鸡腿堡“金球版”1个 主要原料：足球形面包，鸡肉，生菜，风味沙拉酱",
+					"goodNum": 4,
+					"price": 21,
+					"number": 0
 				}]
-			}]
+			},
+			{
+					"name": "新品",
+					"type": 0,
+					"foods": [{
+						"imgUrl": "https://img.meituan.net/100.100.90/xianfu/b8cb6b5933ab3744d14ea5e3564cc6bd30649.jpg",
+						"name": "麦辣鸡腿堡（金球版）",
+						"content": "麦辣鸡腿堡“金球版”1个 主要原料：足球形面包，鸡肉，生菜，风味沙拉酱",
+						"goodNum": 4,
+						"price": 21,
+						"number": 0
+					}]
+				},
+			{
+					"name": "主食",
+					"type": 0,
+					"foods": [{
+						"imgUrl": "https://img.meituan.net/100.100.90/xianfu/b8cb6b5933ab3744d14ea5e3564cc6bd30649.jpg",
+						"name": "麦辣鸡腿堡（金球版）",
+						"content": "麦辣鸡腿堡“金球版”1个 主要原料：足球形面包，鸡肉，生菜，风味沙拉酱",
+						"goodNum": 4,
+						"price": 21,
+						"number": 0
+					}]
+				},
+			{
+					"name": "超值套餐",
+					"type": 0,
+					"foods": [{
+						"imgUrl": "https://img.meituan.net/100.100.90/xianfu/b8cb6b5933ab3744d14ea5e3564cc6bd30649.jpg",
+						"name": "麦辣鸡腿堡（金球版）",
+						"content": "麦辣鸡腿堡“金球版”1个 主要原料：足球形面包，鸡肉，生菜，风味沙拉酱",
+						"goodNum": 4,
+						"price": 21,
+						"number": 0
+					}]
+				},
+			{
+					"name": "小吃",
+					"type": 0,
+					"foods": [{
+						"imgUrl": "https://img.meituan.net/100.100.90/xianfu/b8cb6b5933ab3744d14ea5e3564cc6bd30649.jpg",
+						"name": "麦辣鸡腿堡（金球版）",
+						"content": "麦辣鸡腿堡“金球版”1个 主要原料：足球形面包，鸡肉，生菜，风味沙拉酱",
+						"goodNum": 4,
+						"price": 21,
+						"number": 0
+					}]
+				},
+			{
+					"name": "饮品",
+					"type": 0,
+					"foods": [{
+						"imgUrl": "https://img.meituan.net/100.100.90/xianfu/b8cb6b5933ab3744d14ea5e3564cc6bd30649.jpg",
+						"name": "麦辣鸡腿堡（金球版）",
+						"content": "麦辣鸡腿堡“金球版”1个 主要原料：足球形面包，鸡肉，生菜，风味沙拉酱",
+						"goodNum": 4,
+						"price": 21,
+						"number": 0
+					}]
+				},
+			{
+					"name": "甜品",
+					"type": 0,
+					"foods": [{
+						"imgUrl": "https://img.meituan.net/100.100.90/xianfu/b8cb6b5933ab3744d14ea5e3564cc6bd30649.jpg",
+						"name": "麦辣鸡腿堡（金球版）",
+						"content": "麦辣鸡腿堡“金球版”1个 主要原料：足球形面包，鸡肉，生菜，风味沙拉酱",
+						"goodNum": 4,
+						"price": 21,
+						"number": 0
+					}]
+				},
+			{
+					"name": "APP下单优惠菜品",
+					"type": 0,
+					"foods": [{
+						"imgUrl": "https://img.meituan.net/100.100.90/xianfu/b8cb6b5933ab3744d14ea5e3564cc6bd30649.jpg",
+						"name": "麦辣鸡腿堡（金球版）",
+						"content": "麦辣鸡腿堡“金球版”1个 主要原料：足球形面包，鸡肉，生菜，风味沙拉酱",
+						"goodNum": 4,
+						"price": 21,
+						"number": 0
+					}]
+				},
+			{
+					"name": "APP下单优惠菜品",
+					"type": 0,
+					"foods": [{
+						"imgUrl": "https://img.meituan.net/100.100.90/xianfu/b8cb6b5933ab3744d14ea5e3564cc6bd30649.jpg",
+						"name": "麦辣鸡腿堡（金球版）",
+						"content": "麦辣鸡腿堡“金球版”1个 主要原料：足球形面包，鸡肉，生菜，风味沙拉酱",
+						"goodNum": 4,
+						"price": 21,
+						"number": 0
+					}]
+				},
+			{
+					"name": "APP下单优惠菜品",
+					"type": 0,
+					"foods": [{
+						"imgUrl": "https://img.meituan.net/100.100.90/xianfu/b8cb6b5933ab3744d14ea5e3564cc6bd30649.jpg",
+						"name": "麦辣鸡腿堡（金球版）",
+						"content": "麦辣鸡腿堡“金球版”1个 主要原料：足球形面包，鸡肉，生菜，风味沙拉酱",
+						"goodNum": 4,
+						"price": 21,
+						"number": 0
+					}]
+				}]
 		}]
 	}
 }

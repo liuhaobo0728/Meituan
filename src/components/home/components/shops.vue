@@ -4,7 +4,7 @@
 	<div class="title-bar">
         <span>附近商家</span>
     </div>
-	<router-link tag='div' :to="'/details/' + item.id" class="shops border-bottom" v-for="(item,index) of list" :key="item.id">
+	<router-link tag='div' :to="'/details/' + item.id" class="shops border-bottom" v-for="(item,index) of list" :key="item.id" @click.native='handleStarPrice(item.startPrice)'>
 		<div class="shops-left">
 			<span class="shops-logo" :class="{pingpai:item.type===0,xindian:item.type===1,not:item.type===2}">{{ item.type ? '新店' : '品牌' }}</span>
 			<img class="shops-img" :src="item.logoImg">
@@ -66,6 +66,9 @@ export default{
 			}else{
 				return time + "min"
 			}
+		},
+		handleStarPrice(startPrice) {
+			this.$store.dispatch('changeStarPrice',startPrice)
 		}
 	}
 }	
